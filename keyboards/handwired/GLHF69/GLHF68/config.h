@@ -15,8 +15,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef CONFIG_H
-#define CONFIG_H
+#ifndef 68_CONFIG_H
+#define 68_CONFIG_H
 
 #include "config_common.h"
 
@@ -45,6 +45,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { F4, F5, F6, F7 }
 #define MATRIX_COL_PINS { C7, C6, C5, C4, C3, C2, C1, C0, E1, E0, D7, D5, D4, D3, D2, D1, D0, B7, B6 } //Lucian's Pins :P
 // #define MATRIX_COL_PINS { B7, D0, D1, D2, D3, D4, D5, B6, D7, E0, E1, C0, C1, C3, C4, C5, C6, C7, C2 }// Gabe's Pins :)
+
+
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
